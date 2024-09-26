@@ -5,6 +5,10 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "sourceMap": true,  // This should be set to true
+    "outDir": "dist",   // Ensure you have an output directory
+   // Adjust based on your project
+   
 
     /* Bundler mode */
     "moduleResolution": "bundler",
